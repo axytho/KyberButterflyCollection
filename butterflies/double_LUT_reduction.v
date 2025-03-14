@@ -25,7 +25,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module MyDSP(
+module double_LUT_reduction(
     input clk,
     input [11:0] a,
     input [11:0] b,

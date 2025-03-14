@@ -21,7 +21,7 @@ http://creativecommons.org/publicdomain/zero/1.0/
 // -- Modular add/sub
 // -- Modular mul
 
-module butterfly_mine(input clk,rst,
+module butterfly_double_LUT_reduction(input clk,rst,
                  input CT,
                  input PWM,
                  input [11:0] A,B,W,
@@ -97,7 +97,7 @@ end
 assign Ww = (CT) ? W : Wr0;
 
 
-MyDSP MyDSP(clk,Ww,w4,w5);
+double_LUT_reduction double_LUT_reduction_inst(clk,Ww,w4,w5);
 
 
 always @(posedge clk or posedge rst) begin
