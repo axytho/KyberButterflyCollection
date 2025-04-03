@@ -5,7 +5,10 @@
 // 
 // Create Date: 10/15/2023 03:20:56 PM
 // Design Name: 
-// Module Name: Ni et al.'s design
+// Module Name: Li et al.'s design (Lu Li, Guofeng Qin, Yang Yu, and Weijia Wang. Compact
+// instruction set extensions for kyber. IEEE Transactions on
+// Computer-Aided Design of Integrated Circuits and Systems,
+// 43(3):756–760, 2024.)
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
